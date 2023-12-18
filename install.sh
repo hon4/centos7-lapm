@@ -57,9 +57,6 @@ echo "[ INFO ] Restarting apache2 to apply phpMyAdmin Configuration..."
 systemctl restart httpd
 echo ""
 echo ""
-echo -e "\e[36mThe install was successfull!!!"
-echo "=========================================="
-echo -e "!\e[0m"
 #The ip may have changed
 ipaddr=$(hostname -I)
 echo -e "\e[36mThe install was successfull\n=========================================="
