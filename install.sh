@@ -41,7 +41,7 @@ echo ""
 echo "[ INFO ] Sarting PHP Installation..."
 rpm -Uvh https://mirror.webtatic.com/yum/el7/epel-release.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-yum install php55w php55w-opcache
+yum -y install php55w php55w-opcache
 echo "[ INFO ] Creating a test PHP file."
 echo "<?php
 phpinfo();
